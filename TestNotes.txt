@@ -1,0 +1,81 @@
+Here we will write all the important notes-
+
+Full Stack
+	>Backend - ( Flash . Srrver, DB)
+	>FrontEnd- HTML , CSS, Javescript, React
+	>Middleware- API (Application programming Interface)
+	
+Technologies Stack- Python, FastAPI, POSRegSQL or MYSQL, React, Git/Gthub, Postman, Docker, AI, Gen AI & ML
+
+Environment Setup - 
+
+Tools- 
+	>VS code- code editor
+	>python- backend or programming language
+        >git- version control
+        >GitHub account- Remote repository
+
+Installation-
+	>Install VS code- Refer Installation Guide
+		To check VS Code Version
+		Open Terminal-> Type in terminal  "Code --version"
+
+	>Install python-Refer Python Installation Guide
+		To check python version
+		Open Terminal-> Type "python --version",
+				     "py --version",
+                                     "python -m pip --version
+		
+
+Work Space Creation
+		
+		mkdir FS-AI-Course-to create a folder
+                cd .\FS-AI-Course\=to go inside that folder
+		mkdir projects -- to create another folder
+		cd projects
+
+Create python virtual environment.vnv
+
+                mkdir Student-API- Create a new folder inside projects folder
+                cd Student-API- Go inside the folder
+                python -m venv .venv -Create a python virtual environment.venv 
+
+Activate the environment
+               .venv\Scripts\Activate.bat or .\.venv\scripts\Activate.ps1
+
+------------------------
+Installing Git & Git Hub
+
+PS D:\FullStack_Courses\FS-AI-Course\projects\student-API> python --version
+Python 3.13.3
+PS D:\FullStack_Courses\FS-AI-Course\projects\student-API> git --version
+git version 2.53.0.windows.2
+PS D:\FullStack_Courses\FS-AI-Course\projects\student-API> git config --global user.name "Hrishikesh"
+PS D:\FullStack_Courses\FS-AI-Course\projects\student-API> git config --global user.email "hrishikeshbose94@gmail.com"
+PS D:\FullStack_Courses\FS-AI-Course\projects\student-API> git init
+Initialized empty Git repository in D:/FullStack_Courses/FS-AI-Course/projects/student-API/.git/
+PS D:\FullStack_Courses\FS-AI-Course\projects\student-API> git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config set advice.addEmptyPathspec false"
+PS D:\FullStack_Courses\FS-AI-Course\projects\student-API> git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+PS D:\FullStack_Courses\FS-AI-Course\projects\student-API> git add .
+PS D:\FullStack_Courses\FS-AI-Course\projects\student-API> git commit -m "initial project setup"
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+PS D:\FullStack_Courses\FS-AI-Course\projects\student-API> git branch -M main
+PS D:\FullStack_Courses\FS-AI-Course\projects\student-API> git remote add origin https://github.com/hrishikeshbose94-png/student-api.git
+PS D:\FullStack_Courses\FS-AI-Course\projects\student-API> git push -u origin main
+----------------------------------------
+
+
+
+ 
+
