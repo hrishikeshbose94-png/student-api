@@ -1,0 +1,5 @@
+print ("Schoopl Managament System ")
+name = input("Enter Student Name:")
+age= int(input("Enter Student Age:"))
+course=input("Entyer the Course:")
+print (f"Name:{name}\n Age:{age}\nCourse: {course}")
